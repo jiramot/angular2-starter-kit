@@ -101,7 +101,7 @@ const OCCURENCE_ORDER_PLUGIN = new OccurenceOrderPlugin(true);
 
 const COPY_ASSETS_PLUGIN = new CopyWebpackPlugin([
   {
-    from: ROOT_DIR + '/assets',
+    from: SRC_DIR + '/assets',
     to: 'assets'
   },
 ]);

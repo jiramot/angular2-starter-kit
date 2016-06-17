@@ -93,7 +93,7 @@ const VENDOR_DLL_REFERENCE_PLUGIN = new DllReferencePlugin({
 
 const COPY_ASSETS_PLUGIN = new CopyWebpackPlugin([
   {
-    from: ROOT_DIR + '/assets',
+    from: SRC_DIR + '/assets',
     to: 'assets'
   },
 ]);
